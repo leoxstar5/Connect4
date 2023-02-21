@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        // Create the UI
+        new UIApp();
+
         // declare scanner for input
         Scanner in = new Scanner(System.in);
 
